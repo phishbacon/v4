@@ -1,15 +1,15 @@
 ---
 date: '2'
-title: 'Spotify Profile'
+title: 'Swooft'
 cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+github: 'https://github.com/thechristianreynolds/Swooft'
+external: 'https://csci426-swooft.netlify.app/'
 tech:
-  - React
-  - Styled Components
-  - Express
-  - Spotify API
-  - Heroku
+  - JavaScript
+  - HTML
+  - CSS
+  - PHP
+  - Bootstrap
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+A complete site redesign for Swooft. Swooft is a company out of Chicago. Every aspect of the site was redesigned from backend to frontend.
