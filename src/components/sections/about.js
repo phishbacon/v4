@@ -126,7 +126,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'React', 'Node.js', 'Java', 'SQL', 'C'];
+  // const skills = ['JavaScript (ES6+)', 'React', 'Node.js', 'Java', 'SQL', 'C'];
+
+  const skills = [
+    'Languages: JavaScript, Python, Java, C/C++',
+    'Web Dev: Frontend - HTML, CSS, jQuery, Angular, Backend - Node.js, ExpressJS, PHP, Spring Boot',
+    'Operating Systems: Ubuntu Linux, MacOS, Windows',
+    'DevOps: AWS, Heroku, Vercel',
+    'Databases: PostgreSQL, MySQL, MongoDB, DynamoDB',
+    'Tools: git, npm, Visual Studio, VSCode, IntelliJ, Android Studio',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -144,8 +153,8 @@ const About = () => {
 
             <p>
               After many years I have quite a few projects under my belt, and I've even dabbled in
-              building custom computers. It's safe to say computers are my life. With VS Code and
-              Node I can conquer the world.
+              building custom computers. It's safe to say computers are my life. With VS Code I can
+              conquer the world.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

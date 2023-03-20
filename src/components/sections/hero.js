@@ -60,13 +60,13 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Christian Reynolds.</h2>;
-  const three = <h3 className="big-heading">I create web applications.</h3>;
+  const three = <h3 className="big-heading">I create software.</h3>;
   const four = (
     <>
       <p>
-        I’m an aspiring software engineer ready to start my career in web development. I've been
-        creating web applications independently for years, and now I'm looking to apply my skills to
-        solve real world problems.
+        I’m an aspiring software engineer ready to start my career. I've been creating software
+        solutions independently for years, and now I'm looking to apply my skills to solve real
+        world problems.
       </p>
     </>
   );
